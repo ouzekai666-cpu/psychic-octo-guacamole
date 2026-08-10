@@ -4,6 +4,8 @@
 
 基于 Qt 6 / C++17 的工控级水渠清理机器人上位机标定与数字孪生实时监控平台。系统内置传感器与摄像头仿真、清洗头状态机、多级报警联动、障碍物数据编辑与撤销重做，并通过 2D 数字孪生画布实现轨迹、墙体贴条与柱状图的 1:1 投影映射。
 
+> 本项目完整源码位于本分支的 `ChannelInspectionCalibration/` 子目录，以下内容即该软件的项目说明。
+
 ![C++17](https://img.shields.io/badge/C%2B%2B-17-blue)
 ![Qt 6.8.2](https://img.shields.io/badge/Qt-6.8.2-41CD52)
 ![CMake](https://img.shields.io/badge/CMake-3.16%2B-064F8C)
@@ -44,6 +46,8 @@ flowchart LR
 - **数字孪生单一数据源**：墙体贴条与柱状图共用同一障碍物分组与取色函数，保证上下投影 100% 对齐。
 
 ## 源码结构
+
+以下结构对应 `ChannelInspectionCalibration/` 子目录：
 
 ```text
 ChannelInspectionCalibration/
